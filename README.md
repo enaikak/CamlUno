@@ -9,15 +9,6 @@ A terminal-based implementation of the UNO card game written in **OCaml**.
 - Modular game engine with separated logic and UI components  
 - Property-based testing using **QCheck**
 
-## How to Run
-
-From the repository root:
-
-```bash
-cd uno
-dune build
-dune exec bin/main.exe
-
 ## Commands
 - `play <idx>` — play the card at position `<idx>`
 - `draw` — draw a card and end your turn
@@ -31,3 +22,11 @@ dune exec bin/main.exe
 
 ## Notes
 Developed as a team project for CS 3110 and published here as a personal portfolio copy.
+
+## How to Run
+From the repository root:
+
+```bash
+cd uno
+dune build
+dune exec bin/main.exe
