@@ -1,0 +1,8 @@
+(test
+ (name test_uno)
+ (deps (glob_files_rec ../data/*))
+ (libraries ounit2 uno))
+
+(test
+ (name test_qcheck)
+ (libraries qcheck uno))

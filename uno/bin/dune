@@ -1,0 +1,4 @@
+(executable
+ (public_name uno)
+ (name main)
+ (libraries uno))

@@ -1,0 +1,4 @@
+(library
+ (name uno)
+ (modules card turn_order display_card game_logic)
+ (instrumentation (backend bisect_ppx)))

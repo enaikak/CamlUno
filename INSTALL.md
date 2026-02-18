@@ -1,0 +1,1 @@
+Unzip project file, cd into the uno folder, and run dune build. No special instructions to install OPAM packages, etc. Run dune exec bin/main.exe for gameplay. 

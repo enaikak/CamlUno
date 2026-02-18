@@ -1,0 +1,30 @@
+---
+# Members of your group.
+group:  
+  - name: Nathan Li 
+    netid: nl549
+  - name: Ronit Totlani
+    netid: rt526
+  - name: Enaika Kishnani
+    netid: ek756
+
+# Your PM.
+pm:
+  name: Anirudh Tenneti 
+  netid: at863
+# Set to false if you don't want your gallery entry to be public.
+publish: false
+# Pithy title
+title: "CamlUno
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/rt526/diamondtau"
+# Replace the URL with your own demo video.
+demo-video-url: "https://youtu.be/2lITReOY8VI"
+# Write a short, attention-grabbing description of your project.
+desc: >
+  CamlUno is a fully functional command-line implementation of the classic UNO card game built entirely in OCaml. 
+  The game supports 2-4 players and includes all 108 standard UNO cards with complete functionality for number 
+  cards (0-9 in four colors), action cards (Skip, Reverse, Draw2), and wild cards (Wild, WildDraw4). Players take 
+  turns matching cards by color or value, drawing from a shuffled deck, and using action cards to skip opponents, 
+  reverse turn order, or force card draws. The game is played through an interactive terminal interface where players 
+  enter commands to play cards from their hand or draw, with the first player to empty their hand declared the winner.
