@@ -17,3 +17,17 @@ From the repository root:
 cd uno
 dune build
 dune exec bin/main.exe
+
+## Commands
+- `play <idx>` — play the card at position `<idx>`
+- `draw` — draw a card and end your turn
+- `help` — show the help menu
+- `quit` — exit the game
+
+## Project Structure
+- `uno/bin/` — main terminal game loop  
+- `uno/lib/` — core game logic and card types  
+- `uno/test/` — unit + property-based tests  
+
+## Notes
+Developed as a team project for CS 3110 and published here as a personal portfolio copy.
